@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deevhyne Web | Work</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <img src="deevhyne logo.png" alt="Deevhyne Web Logo" class="nav-logo" />
+      <span>TechNerd.Dev</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+      <li><a href="work.html" class="active">WORK</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <p class="tag">MY PORTFOLIO</p>
+    <h1>My <span class="accent">Work</span></h1>
+    <p>A year of building modern, fast, and responsive web experiences.</p>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar reveal">
+    <div class="stat">
+      <h2 class="counter" data-target="12">0</h2>
+      <p>Projects Completed</p>
+    </div>
+    <div class="stat">
+      <h2 class="counter" data-target="5">0</h2>
+      <p>Happy Clients</p>
+    </div>
+    <div class="stat">
+      <h2 class="counter" data-target="1">0</h2>
+      <p>Year Experience</p>
+    </div>
+    <div class="stat">
+      <h2 class="counter" data-target="4">0</h2>
+      <p>Technologies Used</p>
+    </div>
+  </div>
+
+  <!-- FILTER TABS -->
+  <section class="work-section reveal">
+    <div class="filter-tabs">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Design</button>
+      <button class="filter-btn" data-filter="responsive">Responsive</button>
+    </div>
+
+    <div class="work-grid" id="workGrid">
+
+      <div class="work-card" data-category="web">
+        <img src="airport.jpg" alt="Soundwave Music App" />
+        <div class="work-info">
+          <span class="work-tag">Web Design</span>
+          <h3>TopNotch Dynamic website</h3>
+          <p>A modern world-class website for travel management, private aviation, and execution logistics</p>
+          <div class="work-stack">
+            <span>HTML</span><span>CSS</span><span>Font Awesome</span><span>Javascript</span>
+          </div>
+          <a href="https://topnotchdynamictravels-tours.netlify.app" target="_blank" class="btn btn-primary">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work-card" data-category="ui">
+        <img src="construction.jpg" alt="Lenscraft Photography" />
+        <div class="work-info">
+          <span class="work-tag">Responsive</span>
+          <h3>Jacksmicon Superior Service</h3>
+          <p>A Construction site with a responsive features, about section, and a full contact footer.</p>
+          <div class="work-stack">
+            <span>HTML</span><span>CSS</span><span>Grid</span>
+          </div>
+          <a href="https://oboeffiom5-byte.github.io/JasmiconSuperiorService/" target="_blank" class="btn btn-primary">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work-card" data-category="responsive">
+        <img src="BACK.jpg" alt="Premier League Table" />
+        <div class="work-info">
+          <span class="work-tag">Responsive</span>
+          <h3>Lenscraft Photography</h3>
+          <p>An interactive Premier League standings table with club logos, form indicators, and season filters.</p>
+          <div class="work-stack">
+            <span>HTML</span><span>CSS</span><span>Tables</span>
+          </div>
+          <a href="https://oboeffiom5-byte.github.io/Lenscraft-photography/" target="_blank" class="btn btn-primary">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work-card" data-category="web">
+        <img src="unicross.webp" alt="UniCross Portal" />
+        <div class="work-info">
+          <span class="work-tag">Web Design</span>
+          <h3>Student Portal</h3>
+          <p>A university student portal login system with dashboard access, fee payment, and course registration.</p>
+          <div class="work-stack">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <a href="https://oboeffiom5-byte.github.io/unicross-portal.edu.login" target="_blank" class="btn btn-primary">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS PROGRESS -->
+  <section class="skills-section reveal">
+    <div class="section-header">
+      <p class="tag">EXPERTISE</p>
+      <h2>My <span class="accent">Skill Level</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-label"><span>HTML5</span><span>95%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>Flexbox / Grid</span><span>88%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>JavaScript (ES6+)</span><span>50%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>Responsive Design</span><span>80%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>Git & GitHub</span><span>85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-label"><span>CSS3</span><span>90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 <span class="accent">TechNerd.Dev</span> — Designed & Built by Deevhyne Obo</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <a href="#" class="scroll-top" id="scrollTop"><i class="fa-solid fa-arrow-up"></i></a>
+  <script src="my port.js"></script>
+</body>
+</html>
