@@ -852,6 +852,7 @@ ul { list-style: none; }
     border-bottom: 1px solid var(--border);
     z-index: 999;
   }
+   iframe{ width:100%;}
   .nav-links.open { transform: translateY(0); }
   .hamburger { display: flex; }
 
