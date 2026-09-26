@@ -834,6 +834,7 @@ ul { list-style: none; }
   .contact-section { grid-template-columns: 1fr; }
   .stats-bar { grid-template-columns: repeat(2, 1fr); }
   .skills-grid { grid-template-columns: 1fr; }
+  iframe{ width:100%;}
 }
 
 @media (max-width: 768px) {
@@ -879,4 +880,5 @@ ul { list-style: none; }
   .image-wrapper { width: 300px; height: 330px; }
   .work-card img { height: 160px; }
   .scroll-top { bottom: 1rem; right: 1rem; }
+   iframe{ width:100%;}
 }
